@@ -1,0 +1,95 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    margin-top: 0;
+}
+
+/* Shared Style */
+.dark-1 {
+    color: #474747;
+}
+
+.primary-button-1 {
+    background-color: rgba(253, 110, 10, 1);
+    padding: 18px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* header Section */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: rgba(255, 248, 243, 1);
+}
+
+/* Nav Section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.name-color {
+    color: rgba(253, 110, 10, 1);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 60px 0px 220px;
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-gritting {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.banner-name {
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-img {
+    max-width: 550px;
+    max-height: 680px;
+}
